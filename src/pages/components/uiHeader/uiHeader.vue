@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'header',
+    name: 'ui-header',
     props:{
       selected:{
         type: Number,
@@ -29,5 +29,7 @@
     left: 0;
     width: 100%;
     height: 86px;
+    background-color: black;
+    color: white;
   }
 </style>
