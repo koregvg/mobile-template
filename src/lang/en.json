@@ -1,0 +1,19 @@
+{
+  "common": {
+    "topBar": {
+      "t1":"Home",
+      "t2":"About",
+      "t3":"Business",
+      "t4":"Resource",
+      "t5":"Contact"
+    },
+    "footer": {
+      "bki1-1":"company email：",
+      "bki1-2":"info@dongbadongba.com",
+      "bki2-1":"Company address:",
+      "bki2-2":"1206-1207, Anlian building, building 3, No. 38, East Third Ring Road North, Chaoyang District, Beijing",
+      "bki3-1":"Copyright：",
+      "bki3-2":"Copyright©2015 www.dongbadongba.com AII Rights Reserved 京ICP备15013739号-1"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "common": {
+    "topBar": {
+      "t1":"首页",
+      "t2":"关于动吧",
+      "t3":"核心业务",
+      "t4":"资源展示",
+      "t5":"联系我们"
+    },
+    "footer": {
+      "bki1-1":"公司邮箱：",
+      "bki1-2":"info@dongbadongba.com",
+      "bki2-1":"公司地址：",
+      "bki2-2":"北京市朝阳区东三环北路38号院安联大厦1206-1207",
+      "bki3-1":"版权所有：",
+      "bki3-2":"Copyright©2015 www.dongbadongba.com AII Rights Reserved 京ICP备15013739号-1"
+    }
+  }
+}
+
