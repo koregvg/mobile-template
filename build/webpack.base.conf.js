@@ -3,12 +3,11 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
+const PreloadWebpackPlugin = require('preload-webpack-plugin')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
-
-
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
@@ -67,6 +66,11 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new PreloadWebpackPlugin({
+      rel: 'prefetch'
+    })
+  ],
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue
     // source contains it (although only uses it if it's native).
