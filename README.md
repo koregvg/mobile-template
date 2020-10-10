@@ -1,6 +1,6 @@
-# pc-template
+# mobile-template
 
-> pc端构建模板
+> 移动端构建模板
 
 ## Build Setup
 
