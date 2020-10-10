@@ -1,6 +1,6 @@
-# sport-hub
+# pc-template
 
-> 动吧
+> pc端构建模板
 
 ## Build Setup
 
